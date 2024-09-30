@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحة التواصل - Hussam Alabed</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+    background-color: #343a40;
+    padding: 0; /* إزالة أي padding إضافي */
+    margin: 0; /* إزالة أي margin إضافي */
+    display: flex;
+    justify-content: center; /* لتوسيط الروابط داخل شريط التنقل */
+    align-items: center; /* لمحاذاة الروابط عمودياً */
+    height: 40px; /* تحديد ارتفاع مناسب لشريط التنقل */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px; /* إضافة مسافة جانبية بين الروابط */
+    font-weight: bold;
+    padding: 15px 20px; /* إضافة حواف داخلية حول الروابط */
+    transition: background-color 0.3s ease; /* لإضافة تأثير hover لطيف */
+    
+}
+
+nav a:hover {
+    background-color: #007BFF; /* تغيير لون الخلفية عند التحويم */
+    border-radius: 5px; /* إضافة زوايا مستديرة عند التحويم */
+}
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            margin: 0;
+        }
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            direction: rtl; /* تغيير اتجاه النص إلى اليمين */
+            text-align: right; /* محاذاة النص إلى اليمين */
+        }
+        .contact-links {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .contact-links a {
+            margin: 0 10px;
+            color: #007BFF;
+            font-size: 24px;
+        }
+        .contact-links a:hover {
+            color: #0056b3;
+        }
+        .contact-form {
+            margin-top: 20px;
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .contact-form button {
+            padding: 10px 15px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #007BFF;
+            color: white;
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav>
+        <a href="../Index.html">About Me</a>
+        <a href="Skills.html">Skills</a>
+        <a href="contact.html">Contact me</a>
+    </nav>
+    
+    <header>
+        <h1>تواصل معي</h1>
+        <p>يمكنك ملء النموذج أدناه للتواصل معي.</p>
+    </header>
+
+    <div class="container">
+        <section>
+            <h2>يرجى كتابة الإقتراح </h2>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="الاسم" required>
+                <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+                <textarea name="message" rows="4" placeholder="رسالتك" required></textarea>
+                <button type="submit">إرسال</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>روابط التواصل الاجتماعي</h2>
+            <div class="contact-links">
+                <a href="https://wa.me/message/DT5QB44FFYL4H1" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/hussam__alabed?igsh=OTN2M2gwaXF6a2M4" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100027776971522&mibextid=ZbWKwL" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Hussam Alabed - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
